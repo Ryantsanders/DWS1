@@ -43,9 +43,29 @@ h3 {
 .Wiki {
 	line-height: 1.5ems;
 	text-align: center;
+	text-decoration: none;
 	
 	
 							 }
+a:link {
+	color: #red;
+	text-decoration: none;
+   
+} a:visted {
+   
+   						 
+							 
+				}
+a:hover {
+   
+   						 
+							 
+				}
+a:active {
+   						 
+							 
+				}												
+							 
 .Shawn Michaels {
 	line-height: 1.5ems;
 	color: #000000;
