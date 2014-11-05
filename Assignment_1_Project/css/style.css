@@ -54,19 +54,15 @@ a:link {
 } 
 a:visted {
 	color: black;
-   
-   						 
-							 
-				}
+}
 a:hover {
-   
-   						 
-							 
-				}
+	color: white;
+	text-decoration: underline;
+}
 a:active {
+	color: purple;
    						 
-							 
-				}												
+		}												
 							 
 .Shawn Michaels {
 	line-height: 1.5ems;
