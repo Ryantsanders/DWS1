@@ -123,6 +123,7 @@ a:active {
 figure {
 	   text-align: center;
 	   padding: 10px;
+	   border: 2px;
 	   
 							 }							 
 ol{
@@ -146,11 +147,7 @@ figcaption {
 .Gallery {
 	text-align: center;
 							}
-.Randyimg{
-	   border: 2px solid deeppink;
-	   width:  20px;
-	   display: block;
-							}							 
+						 
 .top {
 	text-align: right;
                             }							 
