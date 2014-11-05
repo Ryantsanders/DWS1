@@ -34,6 +34,13 @@ h3 {
 	text-shadow: 1px 1px #666666
 	
 							 }
+.Shawn Michaels {
+	line-height: 1.5ems;
+	color: #000000;
+	text-align: left;
+	text-shadow: 1px 1px #666666
+	
+							 }							 
 .Wrestlerimg {
 	line-height: 1.5ems;
 	text-align: center;
@@ -63,14 +70,7 @@ a:active {
 	color: blue;
    						 
 		}												
-							 
-.Shawn Michaels {
-	line-height: 1.5ems;
-	color: #000000;
-	text-align: left;
-	text-shadow: 1px 1px #666666
-	
-							 }
+
 figure {
 	   text-align: center;
 	   padding: 10px;
