@@ -48,10 +48,11 @@ h3 {
 	
 							 }
 a:link {
-	color: #red;
+	color: red;
 	text-decoration: none;
    
-} a:visted {
+} 
+a:visted {
    
    						 
 							 
