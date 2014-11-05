@@ -53,14 +53,14 @@ a:link {
    
 } 
 a:visted {
-	color: black;
+	color: yellow;
 }
 a:hover {
 	color: white;
 	text-decoration: underline;
 }
 a:active {
-	color: purple;
+	color: green;
    						 
 		}												
 							 
