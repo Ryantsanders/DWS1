@@ -42,10 +42,16 @@ h3 {
 	color: #000000;
 	text-align: left;
 	width: auto;
+	height: 75px;
+	padding: 40px;
 	border-style: solid;
 	
 	
+	
 							 }
+p.ShawnM{
+	border-width: 10px;
+							 }							 
 .Triplehh {
 	line-height: 1.5ems;
 	color: #000000;
