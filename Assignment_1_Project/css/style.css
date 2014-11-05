@@ -41,35 +41,36 @@ h3 {
 	line-height: 1.5ems;
 	color: #000000;
 	text-align: left;
-	width: auto;
+	width: 1275px;
 	height: 75px;
 	padding: 40px;
 	margin: 10px;
 	border-style: solid;
+	border-radius: 15px;
+	border-width: 10px;
+	box-shadow: 5px 5px #777777;
 	
 	
 	
 							 }
-p.ShawnM{
-	border-width: 10px;
-							 }							 
+							 
 .Triplehh {
 	line-height: 1.5ems;
 	color: #000000;
 	text-align: left;
 	width: 500px;
 	border-style: solid;
-	
-	
-							 }
-p.Triplehh{
+	border-radius: 15px;
 	padding: 40px;
 	border-width: 10px;
 	margin-top: 20px;
 	margin-left: auto;
 	margin-bottom: 20px;
 	margin-right: auto;
-							 }								 
+	
+	
+							 }
+							 
 .StoneC {
 	line-height: 1.5ems;
 	color: #000000;
@@ -122,6 +123,7 @@ a:active {
 figure {
 	   text-align: center;
 	   padding: 10px;
+	   border: 2px solid deeppink;
 							 }							 
 ol{
 	list-style-type: upper-roman;
