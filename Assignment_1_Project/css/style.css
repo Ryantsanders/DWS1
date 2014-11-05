@@ -85,7 +85,12 @@ ol{
 
 .Champion {
 	
+	
 							}
+figcaption {
+	text-shadow: 1px 1px #666666
+	
+							}							
 
 .Gallery {
 	text-align: center;
