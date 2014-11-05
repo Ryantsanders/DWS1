@@ -31,17 +31,48 @@ h3 {
 	line-height: 1.5ems;
 	color: #000000;
 	text-align: left;
+	width: auto;
+	border-style: solid;
 	
 	
 							 }
 
-.Shawn Michaels {
+.ShawnM {
 	line-height: 1.5ems;
 	color: #000000;
 	text-align: left;
+	width: auto;
+	border-style: solid;
 	
 	
-							 }							 
+							 }
+.Triplehh {
+	line-height: 1.5ems;
+	color: #000000;
+	text-align: left;
+	width: auto;
+	border-style: solid;
+	
+	
+							 }
+.StoneC {
+	line-height: 1.5ems;
+	color: #000000;
+	text-align: left;
+	width: auto;
+	border-style: solid;
+	
+	
+							 }							 							 							 
+.TheR {
+	line-height: 1.5ems;
+	color: #000000;
+	text-align: left;
+	width: auto;
+	border-style: solid;
+	
+	
+							 }
 .Wrestlerimg {
 	line-height: 1.5ems;
 	text-align: center;
@@ -80,10 +111,13 @@ figure {
 ol{
 	list-style-type: upper-roman;
 	color: white;
+	
+	
 
 }
 
 .Champion {
+	
 	
 	
 							}
