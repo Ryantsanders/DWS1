@@ -3,4 +3,6 @@ Github repo link: https://github.com/Ryantsanders/DWS1/tree/gh-pages
 Website link: http://ryantsanders.github.io/DWS1/Assignment_1_Project/Index.html
 
 
-Note: I could not get the pictures on the site to work since they images were on my desktop I tried another method of using the images that were submitted to github, but it still didn’t work either.
+Note: I tried but was not able to get any type of border around my images, it would simply 
+      put a bigger box around the entire thing. I have also fixed the issues that I missed
+      in last week assignment.
