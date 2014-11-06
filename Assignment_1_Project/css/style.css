@@ -1,10 +1,13 @@
+/* Ryan Sanders, 11/5/2014, Assignment 2 */
+
+/* "Main" I used a background element to change to to a brownish color as well as giving it some padding*/
 body {
 	background-color: #D6B87B;
 	padding: 10px;
 	
 	
 							 }
-
+/* "Headers" I changed all the headers to be the same however I adjusted their padding, font style and kept their opacity the same to be uniform */
 h1 {
 	background-color: #000000;
 	color: #ffffff;
@@ -28,6 +31,10 @@ h3 {
 	padding: inherit;
 	font-family: Arial, Verdana, sans-serif;
 							 }
+/* "Wrestler sections"*/
+
+/* "Randy Orton" here ive added line height as well as a border and adjusted the border to get it some thickness, 
+    adjusted the margins to make the content centered in the page*/
 .RandyO {
 	line-height: 1.5em;
 	color: #000000;
@@ -43,9 +50,10 @@ h3 {
 	margin-right: auto;
 	
 	
-	
 							 }
 
+/* "Shawn Michaels section" here ive made the border thinner and I didn't adjust it to be in the center I simply put a border around the entire box 
+    and used padding to center the texts as well as added a box shadow*/
 .ShawnM {
 	line-height: 1.5em;
 	color: #000000;
@@ -64,6 +72,7 @@ h3 {
 	
 							 }
 							 
+/* "Triple H section" is simply copy pasted from Randy Orton I wanted to keep a alternating look going from each wrestlers text border */							 
 .Triplehh {
 	line-height: 1.5em;
 	color: #000000;
@@ -81,6 +90,8 @@ h3 {
 	
 							 }
 							 
+							 
+/* "Stone cols section" is simply copy pasted from Shawn Michaels I wanted to keep a alternating look going from each wrestlers text border */								 
 .StoneC {
 	line-height: 1.5em;
 	color: #000000;
@@ -95,7 +106,9 @@ h3 {
 	box-shadow: 5px 5px #777777;
 	
 	
-							 }							 							 							 
+							 }
+							 
+/* "The Rock's section" is simply copy pasted from Randy Orton I wanted to keep a alternating look going from each wrestlers text border */								 							 							 							 
 .TheR {
 	line-height: 1.5em;
 	color: #000000;
@@ -112,12 +125,15 @@ h3 {
 	
 	
 							 }
+/* "Image section" in this section I put a line height but I don't think it actually does anything and I aligned the text to be in the center with the images*/								 
 .Wrestlerimg {
 	line-height: 1.5em;
 	text-align: center;
 	
 	
 							 }
+							 
+/* "Wikipedia section" in this part I adjusted the text to be center so It was uniform with the images and text */								 
 .Wiki {
 	line-height: 1.5em;
 	text-align: center;
@@ -125,53 +141,64 @@ h3 {
 	
 	
 							 }
+							 
+/* "Links section" Here I have made it so that the link colors are green and I took off the underline under them */								 
 a:link {
 	color: green;
 	text-decoration: none;
    
-} 
+}
+/* Here I have changed the color of links that have already been clicked to be Red  */	 
 a:visited {
 	color: red;
 	
 }
+/* Here I have changed the color of the links to be white when you hover over them and have given them their underline back */	
 a:hover {
-	color: white;
+	color: #ffffff;
 	text-decoration: underline;
 }
+/* Here I have changed it so that when you click on the link it will turn blue to give it a sort of "you know its working look"  */	
 a:active {
 	color: blue;
    						 
-		}												
-
+		}
+														
+/* Figures section Here I think this is actually what is centering my images now that I think about it  */	
 figure {
 	   text-align: center;
 	   padding: 10px;
 	   
 	   
-							 }							 
+/* "Ordered list section" here I have made it so that the ordered list text is white and I changed the numbers to be Roman numerals  */								 }							 
 ol{
 	list-style-type: upper-roman;
-	color: white;
+	color: #ffffff;
 	
 	
 
 }
 
+/* "Championship section" Here I have made it so that the this sections font is changed by using a google fonts <link> */	
 .Champion {
 	font-family: 'Fira Sans', sans-serif;
 	
 	
 	
 							}
+/* "fig caption section" I gave the fig captions some text shadow to make it look different than the rest and stand out a bit*/								
 figcaption {
 	text-shadow: 1px 1px #666666
 	
 							}							
 
+/* "Gallery section" Simply centered the gallery text so that it would align with the images */	
 .Gallery {
 	text-align: center;
 							}
-						 
+
+/* " return to top " Here I simply aligned the return to top link on the right side, for some reason it seemed better there
+     I think maybe its because I am right handed and might times I keep the mouse on that side  */							 
 .top {
 	text-align: right;
                             }							 
