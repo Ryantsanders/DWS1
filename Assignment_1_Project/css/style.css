@@ -212,7 +212,7 @@ figcaption {
 }							
 
 /* "Gallery section" Simply centered the gallery text so that it would align with the images */	
-.Gallery {
+#Gallery {
 	text-align: center;
 							}
 
