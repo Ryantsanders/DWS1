@@ -2,6 +2,8 @@
 
 /* "Main" I used a background element to change to to a brownish color as well as giving it some padding*/
 body {
+	width: 90%;
+	margin: 0 auto;
 	background-color: #D6B87B;
 	padding: 10px;
 	
@@ -60,7 +62,7 @@ body {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
-	width: 900px;
+	width: 800px;
 	height: 75px;
 	padding: 40px;
 	margin: 10px;
@@ -91,7 +93,7 @@ body {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
-	width: 900px;
+	width: 800px;
 	height: 75px;
 	padding: 40px;
 	margin: 10px;
@@ -116,18 +118,19 @@ body {
 	margin-bottom: 20px;
 	margin-right: auto;
 }
-
+/* first part of my two column layout*/
  .bio{
  	float: left;
- 	width: 300px;
- 	margin: 20px;
+ 	width: 45%;
+ 	margin: 0 auto;
  	padding: 10px;
 
 }
+/* second part of the two column layout */
  .stats{
 	float: right;
-	width 300px;
-	margin 20px;
+	width 45%;
+	margin: 0 auto;
 	padding: 10px;
 	
 }
