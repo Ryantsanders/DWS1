@@ -121,12 +121,14 @@ body {
  	float: left;
  	width: 300px;
  	margin: 20px;
+ 	padding: 10px;
 
 }
  .stats{
 	float: right;
 	width 300px;
-	margin 10px;
+	margin 20px;
+	padding: 10px;
 	
 }
 
@@ -207,18 +209,18 @@ a:active {
 }
 
 /* "fig caption section" I gave the fig captions some text shadow to make it look different than the rest and stand out a bit*/								
-figcaption {
+ figcaption {
 	text-shadow: 1px 1px #666666
 }							
 
 /* "Gallery section" Simply centered the gallery text so that it would align with the images */	
-#Gallery {
+ #Gallery {
 	text-align: center;
 							}
 
 /* " return to top " Here I simply aligned the return to top link on the right side, for some reason it seemed better there
      I think maybe its because I am right handed and might times I keep the mouse on that side  */							 
- .top {
+  .top {
 	text-align: right;
 }							 
 							 
