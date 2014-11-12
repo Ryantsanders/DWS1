@@ -60,7 +60,7 @@ body {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
-	width: 1275px;
+	width: 900px;
 	height: 75px;
 	padding: 40px;
 	margin: 10px;
@@ -91,7 +91,7 @@ body {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
-	width: 1275px;
+	width: 900px;
 	height: 75px;
 	padding: 40px;
 	margin: 10px;
@@ -130,9 +130,29 @@ body {
 	
 }
 
-.shawn{
+ #shawn{
 	clear: right;
 	clear: left;
+}
+
+ #triple{
+	clear: right;
+	clear: left;
+}
+
+ #steve{
+	clear: right;
+	clear: left;
+}
+
+ #rock{
+	clear: right;
+	clear: left;
+}
+
+ #gallery{
+	clear: right;
+	clear: left; 
 }
 
 /* "Image section" in this section I put a line height but I don't think it actually does anything and I aligned the text to be in the center with the images*/								 
