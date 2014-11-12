@@ -8,7 +8,7 @@ body {
 	
 							 }
 /* "Headers" I changed all the headers to be the same however I adjusted their padding, font style and kept their opacity the same to be uniform */
-h1 {
+ h1 {
 	background-color: #000000;
 	color: #ffffff;
 	opacity: 0.7;
@@ -16,15 +16,17 @@ h1 {
 	font-family: Arial, Verdana, sans-serif;
 	font-size:  40px;
 	font-weight: bold;
-							 }
-h2 {
+}
+
+ h2 {
 	background-color: #000000;
 	color: #ffffff;
 	opacity: 0.7;
 	padding: 13px;
 	font: italic small-caps bold 27px/1 Arial, Verdana, sans-serif;
-							 }
-h3 {
+}
+
+ h3 {
 	background-color: #000000;
 	color: #ffffff;
 	opacity: 0.7;
@@ -35,7 +37,7 @@ h3 {
 
 /* "Randy Orton" here ive added line height as well as a border and adjusted the border to get it some thickness, 
     adjusted the margins to make the content centered in the page*/
-.RandyO {
+ .RandyO {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
@@ -50,11 +52,11 @@ h3 {
 	margin-right: auto;
 	
 	
-							 }
+}
 
 /* "Shawn Michaels section" here ive made the border thinner and I didn't adjust it to be in the center I simply put a border around the entire box 
     and used padding to center the texts as well as added a box shadow*/
-.ShawnM {
+ .ShawnM {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
@@ -66,14 +68,10 @@ h3 {
 	border-radius: 15px;
 	border-width: 10px;
 	box-shadow: 5px 5px #777777;
-	
-	
-	
-	
-							 }
+}
 							 
 /* "Triple H section" is simply copy pasted from Randy Orton I wanted to keep a alternating look going from each wrestlers text border */							 
-.Triplehh {
+ .Triplehh {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
@@ -86,13 +84,10 @@ h3 {
 	margin-left: auto;
 	margin-bottom: 20px;
 	margin-right: auto;
-	
-	
-							 }
-							 
+}
 							 
 /* "Stone cols section" is simply copy pasted from Shawn Michaels I wanted to keep a alternating look going from each wrestlers text border */								 
-.StoneC {
+ .StoneC {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
@@ -104,12 +99,10 @@ h3 {
 	border-radius: 15px;
 	border-width: 10px;
 	box-shadow: 5px 5px #777777;
-	
-	
-							 }
+}
 							 
 /* "The Rock's section" is simply copy pasted from Randy Orton I wanted to keep a alternating look going from each wrestlers text border */								 							 							 							 
-.TheR {
+ .TheR {
 	line-height: 1.5em;
 	color: #000000;
 	text-align: left;
@@ -122,75 +115,81 @@ h3 {
 	margin-left: auto;
 	margin-bottom: 20px;
 	margin-right: auto;
+}
+
+ .bio{
+ 	float: left;
+ 	width: 300px;
+ 	margin: 20px;
+
+}
+ .stats{
+	float: right;
+	width 300px;
+	margin 20px;
 	
-	
-							 }
+}
+
+.shawn{
+	clear: right;
+	clear: left;
+}
+
 /* "Image section" in this section I put a line height but I don't think it actually does anything and I aligned the text to be in the center with the images*/								 
-.Wrestlerimg {
+ .Wrestlerimg {
 	line-height: 1.5em;
 	text-align: center;
-	
-	
-							 }
+}
 							 
 /* "Wikipedia section" in this part I adjusted the text to be center so It was uniform with the images and text */								 
-.Wiki {
+ .Wiki {
 	line-height: 1.5em;
 	text-align: center;
 	text-decoration: none;
-	
-	
-							 }
+}
 							 
 /* "Links section" Here I have made it so that the link colors are green and I took off the underline under them */								 
-a:link {
+ a:link {
 	color: green;
 	text-decoration: none;
-   
 }
+
 /* Here I have changed the color of links that have already been clicked to be Red  */	 
-a:visited {
+ a:visited {
 	color: red;
-	
 }
+
 /* Here I have changed the color of the links to be white when you hover over them and have given them their underline back */	
-a:hover {
+ a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
 /* Here I have changed it so that when you click on the link it will turn blue to give it a sort of "you know its working look"  */	
 a:active {
 	color: blue;
-   						 
-		}
+}
 														
 /* Figures section Here I think this is actually what is centering my images now that I think about it  */	
-figure {
+ figure {
 	   text-align: center;
 	   padding: 10px;
 	   
 	   
 /* "Ordered list section" here I have made it so that the ordered list text is white and I changed the numbers to be Roman numerals  */								 }							 
-ol{
+ ol{
 	list-style-type: upper-roman;
 	color: #ffffff;
-	
-	
-
 }
 
 /* "Championship section" Here I have made it so that the this sections font is changed by using a google fonts <link> */	
-.Champion {
+ .Champion {
 	font-family: 'Fira Sans', sans-serif;
-	
-	
-	
-							}
+}
+
 /* "fig caption section" I gave the fig captions some text shadow to make it look different than the rest and stand out a bit*/								
 figcaption {
 	text-shadow: 1px 1px #666666
-	
-							}							
+}							
 
 /* "Gallery section" Simply centered the gallery text so that it would align with the images */	
 .Gallery {
@@ -199,9 +198,9 @@ figcaption {
 
 /* " return to top " Here I simply aligned the return to top link on the right side, for some reason it seemed better there
      I think maybe its because I am right handed and might times I keep the mouse on that side  */							 
-.top {
+ .top {
 	text-align: right;
-                            }							 
+}							 
 							 
 							 
 							 
