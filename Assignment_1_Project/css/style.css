@@ -4,8 +4,11 @@
 body {
 	margin: 0 auto;
 	background-color: #D6B87B;
-	background-image: url("../Images/pattern_133.gif");
-	background-position: bottom right;
+	background-image: url("../Images/Smiley.jpeg");
+    background-attachment; fixed;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: top right;
 	padding: 10px;
 	
 	
