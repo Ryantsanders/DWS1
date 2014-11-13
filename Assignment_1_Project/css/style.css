@@ -74,12 +74,12 @@ body {
 /* "Shawn Michaels section" here ive made the border thinner and I didn't adjust it to be in the center I simply put a border around the entire box 
     and used padding to center the texts as well as added a box shadow*/
  .ShawnM {
-	line-height: 1.5em;
+	line-height: 1.2em;
 	color: #000000;
 	text-align: left;
-	width: 800px;
+	width: 600px;
 	height: 75px;
-	padding: 40px;
+	padding: 50px;
 	margin: 10px;
 	border-style: solid;
 	border-radius: 15px;
@@ -105,12 +105,12 @@ body {
 							 
 /* "Stone cols section" is simply copy pasted from Shawn Michaels I wanted to keep a alternating look going from each wrestlers text border */								 
  .StoneC {
-	line-height: 1.5em;
+	line-height: 1.2em;
 	color: #000000;
 	text-align: left;
-	width: 800px;
+	width: 600px;
 	height: 75px;
-	padding: 40px;
+	padding: 50px;
 	margin: 10px;
 	border-style: solid;
 	border-radius: 15px;
@@ -146,7 +146,7 @@ body {
 	float: right;
 	width: 45%;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 20px;
 	
 }
 
