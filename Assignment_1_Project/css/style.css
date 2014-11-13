@@ -2,7 +2,6 @@
 
 /* "Main" I used a background element to change to to a brownish color as well as giving it some padding*/
 body {
-	width: 90%;
 	margin: 0 auto;
 	background-color: #D6B87B;
 	background-image: url("../Images/rising.png");
