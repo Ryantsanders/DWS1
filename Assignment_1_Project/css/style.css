@@ -5,7 +5,7 @@ body {
 	margin: 0 auto;
 	background-color: #D6B87B;
 	background-image: url("../Images/Smiley.jpeg");
-    background-attachment; fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100px;
     background-position: bottom left;
@@ -144,12 +144,13 @@ body {
 /* second part of the two column layout */
  .stats{
 	float: right;
-	width 45%;
+	width: 45%;
 	margin: 0 auto;
 	padding: 10px;
 	
 }
 
+/* The following are clears for clearing the columns in order to keep the layout looking nice */
  #shawn{
 	clear: right;
 	clear: left;
