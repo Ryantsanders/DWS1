@@ -9,10 +9,12 @@ body {
     background-repeat: no-repeat;
     background-size: 100px;
     background-position: bottom left;
+    background: linear-gradient(#D6B87B, #8E6C28); 
 	padding: 10px;
 	
 	
 }
+
 /* "Headers" I changed all the headers to be the same however I adjusted their padding, font style and kept their opacity the same to be uniform */
  h1 {
 	background-color: #000000;
