@@ -4,11 +4,11 @@
 body {
 	margin: 0 auto;
 	background-color: #D6B87B;
-	background-image: url("../Images/Smiley.jpeg");
-    background-repeat: no-repeat;
-    background-position: bottom left;
+	background-image: url("../Images/rising.png");
+	background-repeat: repeat-y;
     background-attachment: fixed;
-    background-size: 100px;
+    background-size: 65px;
+    width:90%;
 	padding: 10px;
 	
 	
@@ -49,6 +49,12 @@ body {
 	padding: inherit;
 	font-family: Arial, Verdana, sans-serif;
 							 }
+
+ section{
+	margin: auto;
+}
+ 
+ 
 /* "Wrestler sections"*/
 
 /* "Randy Orton" here ive added line height as well as a border and adjusted the border to get it some thickness, 
@@ -150,6 +156,10 @@ body {
 }
 
 /* The following are clears for clearing the columns in order to keep the layout looking nice */
+ #rand{
+	clear: both;
+	
+}
  #shawn{
 	clear: right;
 	clear: left;
@@ -173,6 +183,13 @@ body {
  #gallery{
 	clear: right;
 	clear: left; 
+}
+
+.wrestler{
+	border: 1px #000000;
+	margin-right: 10px;
+	display: inline;
+
 }
 
 /* "Image section" in this section I put a line height but I don't think it actually does anything and I aligned the text to be in the center with the images*/								 
