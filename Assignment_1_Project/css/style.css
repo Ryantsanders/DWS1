@@ -53,9 +53,11 @@ body {
  aside{
 	margin: auto;
 	float: right;
+	clear: both;
 } 
 
 #table{
+	width: 600px
 	float: left;
 
 }
@@ -196,6 +198,8 @@ body {
 	clear: right;
 	clear: left; 
 }
+
+
 
 
 
