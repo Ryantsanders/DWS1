@@ -140,6 +140,7 @@ body {
 /* first part of my two column layout*/
  .bio{
  	float: left;
+ 	clear: both;
  	width: 45%;
  	margin: 0 auto;
  	padding: 10px;
@@ -148,6 +149,7 @@ body {
 /* second part of the two column layout */
  .stats{
 	float: right;
+	clear: both;
 	width: 45%;
 	margin: 0 auto;
 	padding: 20px;
