@@ -57,8 +57,26 @@ body {
 } 
 
 #table{
+	border-style: solid;
+	border-width: 5px
 	width: 600px
 	float: left;
+
+}
+
+th{
+	padding: 5px;
+
+}
+
+td{
+	padding: 5px;
+	text-align: center;
+
+}
+
+tr:hover{
+	background=color: white;
 
 }
 /* "Wrestler sections"*/
