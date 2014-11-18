@@ -54,6 +54,11 @@ body {
 	margin: auto;
 	float: right;
 } 
+
+#table{
+	float: left;
+
+}
 /* "Wrestler sections"*/
 
 /* "Randy Orton" here ive added line height as well as a border and adjusted the border to get it some thickness, 
@@ -191,6 +196,8 @@ body {
 	clear: right;
 	clear: left; 
 }
+
+
 
 .wrestler{
 	border: 1px #000000;
