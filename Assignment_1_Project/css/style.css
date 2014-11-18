@@ -50,11 +50,10 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 							 }
 
- section{
+ aside{
 	margin: auto;
-}
- 
- 
+	float: right;
+} 
 /* "Wrestler sections"*/
 
 /* "Randy Orton" here ive added line height as well as a border and adjusted the border to get it some thickness, 
@@ -156,6 +155,7 @@ body {
 }
 
 /* The following are clears for clearing the columns in order to keep the layout looking nice */
+
  #rand{
 	clear: both;
 	
