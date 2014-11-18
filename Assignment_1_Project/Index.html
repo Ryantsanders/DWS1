@@ -259,26 +259,54 @@
 	 <h3>Favorite's Vote</h3>
 	</header>
    <section id="Vote">
+   
+   <form>
+   
+   <div>
    <p>Which type of wrestler do you prefer the most<br />
-   	<input type="radio" name="wrestler type"
-   		   value ="Heel (bad guy)" checked "checked" /> Heel (bad guy)
+   	<input id="Heel" type="radio" name="wrestler type" value ="Heel (bad guy)" checked "checked" /> <label for="Heel">Heel (bad guy)</label>
    		   
-   	<input type="radio" name="wrestler type"
-   		   value ="Baby face (good guy)"/> Baby face (good guy)
+   	<input id="Baby face" type="radio" name="wrestler type" value="Baby face (good guy)"/> <label for="Baby face">Baby face (good guy)</label>
    		   
-   	<input type="radio" name="wrestler type"
-   		   value ="Both"/> Both
-   		   
-   	</p>	   
-   		   
-   		   
-   		   
-     <form
-     action="http;//example.com/join.php">
+   	<input id="Both" type="radio" name="wrestler type" value ="Both"/> <label for="Both">Both</label>
+	</p>
+	</div>
+   	
+   	<div>
+   	<label for="Favorite Wrestler:">Favorite Wrestler:</label> <input id="Favorite Wrestler:" type="text" name="Favorite Wrestler:" required="required"/>	   
+    </div>
      
-     <p>Favorite Wrestler<input type="text" name="favorite wrestler:"/></p>
+     <div>
+     <p>Favorite Finisher?
+     <select id="finishers" name="finishers">
      
+     	<option value="The RKO" selected="slected"><label for="The RKO">The RKO</label></option>
+     	<option value="The Pedigree"><label for="The Pedigree">The Pedigree</label></option>
+     	<option value="The Rock Bottom"><label for="The Rock Bottom">The Rock Bottom</label></option>
+     	<option value="The Stunner"><label for="The Stunner">The Stunner</label></option>
+     	<option value="The Sweet Chin Music"><label for="The Sweet Chin Music">The Sweet Chin Music</label></option>
+     
+     </select>
+     </P>
+     </div>
+     
+     <p>Cast your votes here</p>
+     
+     <input id="submit" type="submit" value="Vote"/>
+     
+     <p>What did you think about the site?
+     <textarea name="feedback">
+     	Leave your feedback here..
+     </textarea>
+     </p>
+     
+     <input type="search" name="search"
+     		placeholder="Search here"/>
+     		
+     <input type="submit" value="Search"/>
      </form>
+     
+     
    </section>
 	 </div>
 	 
