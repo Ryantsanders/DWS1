@@ -49,12 +49,15 @@ body {
 	padding: inherit;
 	font-family: Arial, Verdana, sans-serif;
 							 }
+/* The side bar I added to store the table as well a question form/*
 
  aside{
 	margin: auto;
 	float: right;
 	clear: both;
 } 
+
+/* the table that holds the wrestlers career dates added a border to it and cleared it/*
 
 #table{
 	border-style: solid;
@@ -63,6 +66,8 @@ body {
 	clear: both;
 
 }
+
+/* here ive added some padding and text transform for the title headings of my table as wella s a border/*
 
 th{
 	padding: 5px;
