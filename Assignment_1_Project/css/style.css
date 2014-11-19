@@ -81,6 +81,8 @@ th{
 
 }
 
+/* the css for the table data just gave it a bit of padding and adjusted the front size as well as aligning the text /*
+
 td{
 	padding: 5px;
 	text-align: center;
@@ -89,15 +91,21 @@ td{
 
 }
 
+/*  here I made the table rows have a white color when you hover the mouse over them/*
+
 tr:hover{
 	background-color: white;
 
 }
 
+/* gave the table rows a background color /*
+
 tr.bg{
 	background-color: grey;
 
 }
+
+/* just clearing the title of the section quotes/*
 
 .Quotes{
 	clear: both;
@@ -315,6 +323,8 @@ a:active {
  #gallery {
 	float: left;
 							}
+
+/* Giving the form area a background some padding, front size and making sure its cleared/*
 							
 form {
 	background-color: #5e909f;
@@ -328,6 +338,8 @@ form {
 	text-align: left;
 	clear: both;
 							}
+
+/* Styling the subit button changed the color of the words and gave it a border/*
 							
  #submit{
  	color: red;
@@ -335,6 +347,7 @@ form {
  	clear: both;
  }
  
+/* more submit butting styling however making it so that it looks pushed down when you hover over the button/* 
 #submit:hover{
  	color: red;
  	border-top: 5px;
