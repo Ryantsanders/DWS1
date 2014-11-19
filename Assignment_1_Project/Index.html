@@ -30,11 +30,11 @@
 		<li class="wrestler"><a href="#TripleH">Triple H</a></li>
 		<li class="wrestler"><a href="#StoneCold">Stone Cold Steve Austin</a></li>
 		<li class="wrestler"><a href="#TheRock">The Rock</a></li>
-	</div>
- </nav>
+	</ul>
+</nav>
 	</header>
 	
-
+ 
 	 <!-- this id is where the wrestlers index link brings the user if clicked on-->
 	<a id="RandyOrton"></a>
 	
@@ -208,18 +208,15 @@
 		<aside>
 	 <header class="Quotes">
 	 	<h3>Quotes</h3>
-	 </header>
-   <section class="quotes">
+     </header>
 	 	<p>Randy Orton - "This One Man Dynasty has only just begun, and I will be WWE Champion for a long, long time"</p>
 	 	<p>Shawn Michaels - “I will give you a show that you’ve never ever seen before, why?…Because I can" </p>
 	 	<p>Triple H - "You will look into my eyes and you will know I am The Game and that I am that damn good!"</p>
 	 	<p>Stone Cold - Going to leave his quote out because most of them shouldn't be posted</p>
 	 	<p>The Rock - "You want to go one...on..one with the great one!"</p>
-   </section
-	<header>
-	 <h3>Career Length</h3>
-	</header>
+
    <section class="Career">
+   <header><h3>Career Length</h3></header>
 	 <div id="table">
 	<table>
 	  <tr>
@@ -254,37 +251,43 @@
 	  </tr>
 	</table>
 	</div>
+	</section>
 	<div id="Form">
 	<header>
 	 <h3>Favorite's Vote</h3>
 	</header>
-   <section id="Vote">
    
    <form>
    
    <div>
+   
+   <input type="search" name="search"
+     		placeholder="Search here"/>
+     		
+   <input id="Search" type="submit" value="Search"/>
+   
    <p>Which type of wrestler do you prefer the most<br />
-   	<input id="Heel" type="radio" name="wrestler type" value ="Heel (bad guy)" checked "checked" /> <label for="Heel">Heel (bad guy)</label>
+   	<input id="Heel" type="radio" name="wrestler type" value ="Heel (bad guy)" checked="checked"/> <label for="Heel">Heel (bad guy)</label>
    		   
-   	<input id="Baby face" type="radio" name="wrestler type" value="Baby face (good guy)"/> <label for="Baby face">Baby face (good guy)</label>
+   	<input id="Babyface" type="radio" name="wrestler type" value="Babyface(good guy)"/> <label for="Babyface">Baby face (good guy)</label>
    		   
    	<input id="Both" type="radio" name="wrestler type" value ="Both"/> <label for="Both">Both</label>
 	</p>
 	</div>
    	
    	<div>
-   	<label for="Favorite Wrestler:">Favorite Wrestler:</label> <input id="Favorite Wrestler:" type="text" name="Favorite Wrestler:" required="required"/>	   
+   	<label for="FavoriteWrestler:">Favorite Wrestler:</label> <input id="FavoriteWrestler:" type="text" name="FavoriteWrestler:" required="required"/>	   
     </div>
      
      <div>
      <p>Favorite Finisher?
      <select id="finishers" name="finishers">
      
-     	<option value="The RKO" selected="slected"><label for="The RKO">The RKO</label></option>
-     	<option value="The Pedigree"><label for="The Pedigree">The Pedigree</label></option>
-     	<option value="The Rock Bottom"><label for="The Rock Bottom">The Rock Bottom</label></option>
-     	<option value="The Stunner"><label for="The Stunner">The Stunner</label></option>
-     	<option value="The Sweet Chin Music"><label for="The Sweet Chin Music">The Sweet Chin Music</label></option>
+     	<option value="TheRKO">The RKO</option>
+     	<option value="ThePedigree">The Pedigree</option>
+     	<option value="TheRock Bottom">The Rock Bottom</option>
+     	<option value="TheStunner">The Stunner</option>
+     	<option value="TheSweet Chin Music">The Sweet Chin Music</option>
      
      </select>
      </P>
@@ -299,15 +302,8 @@
      	Leave your feedback here..
      </textarea>
      </p>
-     
-     <input type="search" name="search"
-     		placeholder="Search here"/>
-     		
-     <input type="submit" value="Search"/>
      </form>
      
-     
-   </section>
 	 </div>
 	 
 	 

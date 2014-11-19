@@ -58,8 +58,8 @@ body {
 
 #table{
 	border-style: solid;
-	border-width: 5px
-	width: 400px
+	border-width: 1px;
+	width: 5%;
 	float: left;
 
 }
@@ -306,6 +306,40 @@ a:active {
  #gallery {
 	float: left;
 							}
+							
+form {
+	background-color: #5e909f;
+	width: auto;
+	padding: 20px;
+	margin: 0 auto;
+	font-size: 1em;
+	color:#000000
+	border-style solid;
+	border-width: 50px;
+	text-align: left;
+	clear: both;
+							}
+							
+ #submit{
+ 	color: red;
+ 	border-bottom: 5px;
+ 	border-radius; 5px;
+ 
+ }
+ 
+#submit:hover{
+ 	color: red;
+ 	border-top: 5px;
+ 	border-radius; 5px;
+ 
+ }
+ 
+#FavoriteWrestler:focus{
+ 	color: red;
+ 	border-top: 5px;
+ 
+ }
+  
 
 /* " return to top " Here I simply aligned the return to top link on the right side, for some reason it seemed better there
      I think maybe its because I am right handed and might times I keep the mouse on that side  */							 
