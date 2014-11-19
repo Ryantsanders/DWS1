@@ -49,7 +49,7 @@ body {
 	padding: inherit;
 	font-family: Arial, Verdana, sans-serif;
 							 }
-/* The side bar I added to store the table as well a question form/*
+/* The side bar I added to store the table as well a question form*/
 
  aside{
 	margin: auto;
@@ -57,7 +57,7 @@ body {
 	clear: both;
 } 
 
-/* the table that holds the wrestlers career dates added a border to it and cleared it/*
+/* the table that holds the wrestlers career dates added a border to it and cleared it*/
 
 #table{
 	border-style: solid;
@@ -67,7 +67,7 @@ body {
 
 }
 
-/* here ive added some padding and text transform for the title headings of my table as wella s a border/*
+/* here ive added some padding and text transform for the title headings of my table as wella s a border*/
 
 th{
 	padding: 5px;
@@ -77,11 +77,9 @@ th{
 	border-width: 5px;
 	border-style:solid;
 	border-collapse: separate;
-	
-
 }
 
-/* the css for the table data just gave it a bit of padding and adjusted the front size as well as aligning the text /*
+/* the css for the table data just gave it a bit of padding and adjusted the front size as well as aligning the text */
 
 td{
 	padding: 5px;
@@ -91,21 +89,21 @@ td{
 
 }
 
-/*  here I made the table rows have a white color when you hover the mouse over them/*
+/*  here I made the table rows have a white color when you hover the mouse over them*/
 
 tr:hover{
 	background-color: white;
 
 }
 
-/* gave the table rows a background color /*
+/* gave the table rows a background color */
 
 tr.bg{
 	background-color: grey;
 
 }
 
-/* just clearing the title of the section quotes/*
+/* just clearing the title of the section quotes*/
 
 .Quotes{
 	clear: both;
@@ -324,7 +322,7 @@ a:active {
 	float: left;
 							}
 
-/* Giving the form area a background some padding, front size and making sure its cleared/*
+/* Giving the form area a background some padding, front size and making sure its cleared*/
 							
 form {
 	background-color: #5e909f;
@@ -339,7 +337,7 @@ form {
 	clear: both;
 							}
 
-/* Styling the subit button changed the color of the words and gave it a border/*
+/* Styling the subit button changed the color of the words and gave it a border*/
 							
  #submit{
  	color: red;
@@ -347,7 +345,7 @@ form {
  	clear: both;
  }
  
-/* more submit butting styling however making it so that it looks pushed down when you hover over the button/* 
+/* more submit butting styling however making it so that it looks pushed down when you hover over the button*/ 
 #submit:hover{
  	color: red;
  	border-top: 5px;
